@@ -17,4 +17,5 @@ hero.addEventListener("click", function (e) {
 const menuToggle = document.querySelector(".menu-toggle input");
 menuToggle.addEventListener("click", function () {
   document.querySelector("nav ul").classList.toggle("slide");
+  document.body.classList.toggle("hidden");
 });
